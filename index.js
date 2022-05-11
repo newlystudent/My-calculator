@@ -2,8 +2,6 @@ let string = "";
 let buttons = document.querySelectorAll('.button');
 let screen_width = screen.width;
 let screen_height = screen.height;
-document.querySelector('.screen-width').innerHTML ="Width is : "+screen_width + "px";
-document.querySelector('.screen-height').innerHTML ="Height is : "+screen_height + "px";
 Array.from(buttons).forEach((button)=>{
     button.addEventListener('click', (e)=>{
         if(e.target.innerHTML == '=')
